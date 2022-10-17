@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n=153;
+    int temp=n;
+    int sum=0;
+    while(n > 0){
+       int l=n%10;
+       cout<<"l";
+       int m=l*l*l;
+        n=n/10;
+        sum+=m;
+    }
+    if(temp==sum){
+       cout<<"Yes";
+       
+    }
+    else{
+        cout<<"No";
+    }
+        
+    
+    return 0;
+}
+
