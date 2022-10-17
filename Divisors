@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int n = 20;
+  int count = 0;
+  for (int i = 1; i <= n; i++)
+    {
+      if (n % i == 0)
+	{
+	  cout << i << endl;
+	  count++;
+	}
+    }
+  cout << count << endl;
+  if (count == 2)
+    {
+      cout << "Prime number";
+    }
+  else
+    {
+      cout << "Its not";
+    }
+
+  return 0;
+}
