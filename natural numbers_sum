@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i;
+    int sum=0;
+   // int avg;
+    for(i=1;i<=10;i++){
+    cout<<i<<endl;
+    sum=sum+i;
+    //avg=sum/i;
+}
+cout<<"sum is:"<<sum<<endl;
+//cout<<"The avg is: "<<avg<<endl;
+    return 0;
+}
