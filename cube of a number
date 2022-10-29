@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i;
+    int cube;
+    //int n;
+    //n=i*i*i;
+    cout<<"Enter any number:";
+    cin>>i;
+    cube=i*i*i;
+    cout<<cube;
+    //cout<<n;
+
+    return 0;
+}
